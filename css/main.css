@@ -1,0 +1,66 @@
+@import url(https://fonts.googleapis.com/css?family=Luckiest+Guy);
+
+body{
+	box-sizing: border-box;
+	margin: 0;	
+}
+
+header{
+	background-color: #24242D;
+	padding: 40px;
+	text-align: center;
+}
+
+header h1{
+	color: #4897EC;
+	font-size: 90px;
+	font-family: 'Luckiest Guy', sans-serif;
+}
+
+header img {
+	border-radius: 50%;
+	width: 250px;
+	height: 250px;
+	border: 12px solid #9B0E00;
+}
+
+.content{
+	max-width: 900px;
+	margin: 0 auto;
+	padding: 0 20px;
+}
+
+.content img.big-img{
+	max-width: 100%;
+}
+
+p.caption {
+	font-size: 16px;
+	color: lighgrey;
+	font-style: italic;
+}
+
+ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+a{
+	color: red;
+	text-decoration: none;
+}
+
+footer{
+	padding: 40px 20px;
+	background-color: #EAEAEA;
+	margin-top: 20px;
+}
+
+footer ul {
+	text-align:center;
+}
+footer ul li{
+	display: inline-block;
+	margin: 0 5px
+}
